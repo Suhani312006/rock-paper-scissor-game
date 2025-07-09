@@ -72,17 +72,16 @@ plaintext
 Copy
 Edit
 rock-paper-scissors/
-├── index.html
-├── style.css
-└── script.js
+├── rps.html
+├── rps.css
+└── rps.js
 🚀 Run Locally
 bash
 Copy
 Edit
-git clone https://github.com/your-username/rock-paper-scissors.git
+git clone https://github.com//rock-paper-scissors.git
 cd rock-paper-scissors
-open index.html  # Or open in your browser
-📸 Screenshots (optional)
+open rps.html
 Include screenshots or a GIF of the game in action.
 
 📄 License
