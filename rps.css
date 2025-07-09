@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    background-color: #685155;
+    height: 55px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.choice{
+    height: 175px;
+    width: 150px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.choice:hover{
+    opacity: 0.7;
+    cursor: pointer;
+   
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+
+.msg-container{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#msg{
+    display: inline;
+    background-color: #966e6a;
+    font-size: 25px;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b1c19;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset-btn:hover {
+    background-color: #d32f2f;
+}
+
+
+#start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb); 
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#start-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #6a1b9a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#start-btn:hover {
+  background-color: #8e24aa;
+  transform: scale(1.05);
+}
+
+#start-screen h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
