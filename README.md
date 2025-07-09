@@ -79,7 +79,7 @@ rock-paper-scissors/
 bash
 Copy
 Edit
-git clone https://github.com//rock-paper-scissors.git
+git clone https://github.com/Suhani312006/rock-paper-scissor-game.git
 cd rock-paper-scissors
 open rps.html
 Include screenshots or a GIF of the game in action.
